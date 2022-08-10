@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container-header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+.header{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding: 30px 30px 10px 30px;
+    font-family: 'Roboto';
+}
+i{
+    color: rgb(235, 151, 73);
+    width: 30px;
+    height: 30px;
+}
+.language{
+    margin: 10px;
+    width: 40px;
+    height: 20px;
+    background-color: aqua;
+}
+.logo{
+    width: 199px;
+    height: 93px;
+}
+
+.menu-wrapper,
+.menu a {
+    width: 100%;
+}
+
+
+.menu a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu li {
+    position: relative;
+    
+}
+
+.menu>li {
+    float: left;
+    padding-left: 70px;
+}
+
+.menu,
+.menu ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+.menu ul {
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.menu>li ul,
+.menu ul ul {
+    opacity: 0;
+   
+    z-index: -1;
+    visibility: hidden;
+}
+
+
+.menu ul a {
+    width: 250px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.menu>li:hover>ul {
+    top: 100%;
+    opacity: 1;
+    z-index: 1;
+    visibility: visible;
+}
+
+
+.menu-gold,
+.menu-gold a {
+    color: rgb(128, 125, 125);
+}
+
+.menu-gold a:hover {
+    color: #1310c3;
+    font-weight: bold;
+}

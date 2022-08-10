@@ -1,0 +1,76 @@
+.footer{
+    width: 100%;
+    height: 532px;
+    background-color: #005baa;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.part1, .part2{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    padding: 60px;
+    font-family: 'Roboto';
+    color: white;
+}
+.part2 {
+    align-items: flex-start;
+}
+h4{
+    font-size: 16px;
+}
+.logo_footer {
+    width: 199px;
+    height: 93px;
+}
+
+.menu a {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu li {
+    position: relative;
+
+}
+
+.menu>li {
+    float: left;
+    padding-left: 70px;
+}
+
+.menu{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.part1 .menu a{
+    color: white;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.content1, .content2 p{
+    font-size: 13px;
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+}
+.content3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content3>img{
+    margin-top: 50px;
+}

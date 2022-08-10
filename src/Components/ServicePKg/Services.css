@@ -1,0 +1,40 @@
+.services * {
+    margin: 0;
+}
+
+.services .title-intro{
+    margin-bottom: 20px;
+}
+.services .container-intro {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.content-services{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.content-services .row{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 480px !important;
+}
+.content-services .row:hover{
+    box-shadow: 4px 20px 9px 0px rgba(128, 125, 125, 0.474);
+}
+.btn-more{
+    padding: 10px 30px 10px 30px;
+    margin-left: 120px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #1310c3;
+    border: 1px solid #1310c3;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-more:hover{
+    color: white;
+    background-color: #1310c3;
+}

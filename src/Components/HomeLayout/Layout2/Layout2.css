@@ -1,0 +1,56 @@
+.slide-layout2 .slick-slider {
+    width: 1202px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.slide-layout2 .slick-slide {
+    width: 385px !important;
+    margin: 8px !important;
+}
+
+.slide-layout2 .slick-list {
+    height: 450px;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #1310c3 !important;
+}
+.row {
+    width: 390px !important;
+    height: 430px !important;
+    box-shadow: 2px 8px 8px rgba(91, 88, 88, 0.104);
+}
+
+.image {
+    height: 230px;
+    width: 390px;
+    background-size: contain;
+
+}
+
+.title-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.title {
+    color: #1310c3;
+}
+
+.text {
+    font-size: 17px;
+    color: rgb(128, 125, 125);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}

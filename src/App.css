@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.App,
+.App * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: #222;
+  font-family: 'Roboto';
+}
+.title_layout2{
+  color: #1310c3;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 30px;
+  font-family: 'Roboto';
+}
+

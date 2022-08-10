@@ -1,0 +1,50 @@
+.layout5 *{
+    margin: 0;
+}
+.layout5{
+    background-image: url('/src/img/banner/Banner\ 3.jpg');
+    height: 637px;
+    color: white;
+    background-size: cover;
+}
+.layout5 > p{
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0;
+}
+.layout5 > img{
+    width: 50px;
+}
+.layout-number{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 70px;
+}
+.number{
+    width: 150px;
+}
+.number > h1{
+    font-size: 80px;
+}
+.number > p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container-img{
+    width: 288.75px;
+    height: 160px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.img-hospital{
+    display: flex;
+    justify-content: center;
+}
+.container-img > img{
+    width: 70%;
+    height: 100%;
+}

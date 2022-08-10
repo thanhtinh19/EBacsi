@@ -1,0 +1,44 @@
+.layout4{
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.layout4 > img{
+    width: 50px;
+}
+.layout4-title{
+    font-size: 30px;
+    color: #1310c3;
+    margin: 0;
+}
+.layout4-title-text{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+}
+.contentLayout4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+.layout4-row{
+    width: 390px;
+    height: 320px;
+    margin: 5px;
+    margin-bottom: 20px;
+    box-shadow: 2px 8px 8px rgba(91, 88, 88, 0.104);
+}
+.layout4-text{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px 40px 0px 40px;
+    margin: 0;
+    color: #1310c3;
+}
+.layout4-row:hover{
+    border: 3px solid #F08924;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 15px 8px rgba(91, 88, 88, 0.104);
+}

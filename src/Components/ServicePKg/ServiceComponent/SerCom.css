@@ -1,0 +1,57 @@
+.service-component *{
+    margin: 0;
+}
+.container-intro{
+    width: 1200px;
+    margin: 0 auto;
+}
+.content-sercom{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.content-sercom .img-title-sercom{
+    display: flex;
+    justify-content: center;
+}
+.img-title-sercom > img{
+    width: 636px;
+    margin: 0px 20px 20px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.246);
+}
+.title-sercom{
+    margin-left: 20px;
+}
+.title-sercom h3{
+    font-size: 30px;
+    color: #1310c3;
+}
+.title-sercom .describe-sercom{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.title-sercom span{
+    color: black;
+    font-size: 20px;
+}
+.detail-information img{
+    width: 1200px;
+}
+.detail-information{
+    margin-bottom: 30px;
+}
+.detail-information h3{
+    color: #1310c3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.detail-information span{
+    color: black;
+    font-size: 20px;
+}
+.detail-information p{
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    line-height: 1.5;
+}

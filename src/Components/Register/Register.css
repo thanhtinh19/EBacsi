@@ -1,0 +1,76 @@
+.register p,h1{
+    margin: 0;
+}
+.content-register{
+    text-align: center;
+    width: 1200px;
+    border-radius: 20px;
+    margin: 30px 0px 30px 0px;
+    padding: 50px 50px 50px 30px;
+    box-shadow: 0px 10px 20px 3px rgba(128, 125, 125, 0.474);
+}
+.row-input{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.row-input input{
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #1310c3;
+    margin: 10px 20px 10px 0px;
+}
+.row-input input:nth-child(1){
+    margin-left: 50px;
+}
+.content-register > p{
+    margin: 10px 0px 20px 0px;
+}
+.content-register h1{
+    font-size: 50px;
+    font-weight: bolder;
+    background: -webkit-linear-gradient(rgb(162, 157, 238), rgb(8, 4, 68));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 5px 4px rgba(106, 103, 103, 0.424) !important;
+}
+.row-input .name{
+    width: 60%;
+}
+.row-input .gender{
+    margin-left: 40px;
+}
+.year, .number-phone{
+    width: 27.5%;
+}
+.city, .province, .address{
+    width: 29%;
+}
+.advise{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.advise p{
+    margin: 10px 0px 10px 0px;
+}
+textarea{
+    width: 98%;
+    height: 200px;
+    border-radius: 20px;
+    border:  1px solid #1310c3;
+}
+
+.btnSend input{
+    padding: 10px 40px 10px 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: #f68b1f;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px 0px #1310c34d;
+}

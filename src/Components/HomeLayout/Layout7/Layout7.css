@@ -1,0 +1,98 @@
+.layout7 *{
+    margin: 0;
+}
+.layout7{
+    background-image: url('/src/img/banner/Banner\ 4.jpg');
+    background-size: cover;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+.layout7-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.layout7-container .content1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.layout7-container .content1 > img{
+    width: 880px;
+    height: 495px;
+    border-radius: 20px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 30px 20px #92d2f77f;
+}
+.layout7-container .content1 .qrcode-download{
+    margin-top: -150px;
+    padding-left: 30px;
+}
+.layout7-container .content1 h3{
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+}
+.layout7-container .content1 .google-play{
+    padding-bottom: 10px;
+}
+.layout7-container .content2{
+    width: 1004px;
+    height: 494px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border-top: 7px solid #F08924;
+    border-bottom: 7px solid #1310c3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 100% 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: 7px 100%;
+    -moz-background-size: 7px 100%;
+    background-size: 7px 100%;
+    background-image: -webkit-linear-gradient(top, #F08924 0%, #1310c3 100%), -webkit-linear-gradient(top, #F08924 0%, #1310c3 100%);
+    background-image: -moz-linear-gradient(top#F08924 0%, #1310c3 100%), -moz-linear-gradient(top, #F08924 0%, #1310c3 100%);
+    background-image: -o-linear-gradient(top, #F08924 0%, #1310c3 100%), -o-linear-gradient(top, #F08924 0%, #1310c3 100%);
+    background-image: linear-gradient(to bottom, #F08924 0%, #1310c3 100%), linear-gradient(to bottom, #F08924 0%, #1310c3 100%);
+    
+}
+.layout7-container .content2 .layout7-title{
+    font-size: 30px;
+    padding-top: 30px;
+    color: #1310c3;
+}
+.layout7-container .content2 > img{
+    padding: 10px;
+    margin-bottom: 15px
+}
+.layout7-container .content2 .container-image{
+    margin: 0 auto;
+}
+
+.layout7-container .content2 .container-image img {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0px 4px 7px 0px #1310c33a !important;
+    cursor: pointer;
+}
+.layout7-container .slide{
+    width: 112px !important;
+    height: 112px !important;
+    display: flex;
+    opacity: .7;
+    align-content: center;
+}
+.layout7-container .slide-active{
+    opacity: 1;
+    width: 191px !important;
+    height: 191px !important;
+}
+.layout7-container .slide-content{
+    padding: 20px 100px 0px 100px;
+    font-size: 20px;
+    color: rgb(128, 125, 125);
+}

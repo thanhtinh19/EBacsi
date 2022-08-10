@@ -1,0 +1,83 @@
+.layout3{
+    background-image: url("/src/img/banner/Banner\ 2.jpg");
+    height: 779px;
+    margin: 20px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    padding: 0px 0px 10px 0px;
+    width: 100% !important;
+}
+.layout3 > img{
+    width: 362px;
+    height: 664px;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+span{
+    font-weight: bolder !important;
+}
+
+.content-layout3 > p{
+    font-size: 30px;
+    color: white;
+
+}
+.content{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.row-layout3{
+    width: 288.75px !important;
+    height: 250px !important;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+.row-layout3:hover{
+    box-shadow: 10px -2px 5px #F08924 inset;
+}
+.img-title{
+    display: flex;
+    justify-content: left;
+    margin: 10px 20px 10px 10px;
+    align-items: flex-start;
+}
+.img-title p:hover{
+    color: #F08924;
+    cursor: pointer;
+}
+.img-title img{
+    width: 70px;
+    height: 70px;
+}
+.img-title > p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left !important;
+}
+.img-title .title{
+    margin: 0;
+}
+.row-layout3 > .text{
+    margin: 30px 20px 0px 20px;
+    text-align: left;
+}
+.btn-find-out-now{
+    margin-top: 35px;
+    font-size: 25px;
+    padding: 15px 40px 15px 40px;
+    background-color: #F08924;
+    color: white;
+    border-radius: 35px;
+    border: 2px solid white ;
+    cursor: pointer;
+}
